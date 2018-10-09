@@ -5,9 +5,9 @@ phraseapp:
     sources:
     - file: ./locales/de.yml
       params:
-        file_format: yaml
+        file_format: yml
   pull:
     targets:
     - file: ./locales/<locale_name>.yml
       params:
-        file_format: yaml
+        file_format: yml
