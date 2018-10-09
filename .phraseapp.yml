@@ -3,11 +3,11 @@ phraseapp:
   project_id: "0a42f96af14449339efc2e8a8abdb398"
   push:
     sources:
-    - file: ./locales/de.json
+    - file: ./locales/de.yml
       params:
-        file_format: json
+        file_format: yaml
   pull:
     targets:
-    - file: ./locales/<locale_name>.json
+    - file: ./locales/<locale_name>.yml
       params:
-        file_format: json
+        file_format: yaml
