@@ -1,10 +1,12 @@
 phraseapp:
-  access_token: "ba7612762d03f0ebcefef3082aae4538c6c08f4a8dd4f5ccdac7a4d0227eb900"
-  project_id: "0a42f96af14449339efc2e8a8abdb398"
-  file_format: "yml"
+  project_id: 2efd2a34f3dfc629fefeb1e2dc117547
   push:
     sources:
-    - file: "./config/locales/*.yml"
+    - file: ./locales/de.json
+      params:
+        file_format: json
   pull:
     targets:
-    - file: "./config/locales/<locale_name>.yml"
+    - file: ./locales/<locale_name>.json
+      params:
+        file_format: json
