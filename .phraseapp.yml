@@ -10,7 +10,7 @@ phraseapp:
     - file: ./locales/en-advanced.yml
       params:
         file_format: yml
-        tags: "advanced, custom"
+        tags: "advanced,custom"
   pull:
     targets:
     - file: ./locales/<locale_name>-simple.yml
@@ -20,4 +20,4 @@ phraseapp:
     - file: ./locales/<locale_name>-advanced.yml
       params:
         file_format: yml
-        tags: "advanced, custom"
+        tags: "advanced,custom"

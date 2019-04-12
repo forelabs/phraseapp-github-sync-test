@@ -1,7 +1,8 @@
+---
 en:
   advanced:
     test:
-      import: 'only part of en-advanced'
+      import: only part of en-advanced updated
   custom:
     test:
-      import: 'only part of en-advanced'
+      import: only part of en-advanced
