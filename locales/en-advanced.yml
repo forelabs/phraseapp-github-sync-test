@@ -1,0 +1,7 @@
+en:
+  advanced:
+    test:
+      import: 'only part of en-advanced'
+  custom:
+    test:
+      import: 'only part of en-advanced'

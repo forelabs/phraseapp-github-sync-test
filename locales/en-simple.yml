@@ -1,0 +1,4 @@
+en:
+  simple:
+    test:
+      import: 'only part of en-simple'
