@@ -1,13 +1,22 @@
 phraseapp:
-  access_token: "ba7612762d03f0ebcefef3082aae4538c6c08f4a8dd4f5ccdac7a4d0227eb900"
-  project_id: "0a42f96af14449339efc2e8a8abdb398"
+  access_token: "d0792459e43ff0559711076748f222bf76b7be5cafc5b451424b1480c930a9de"
+  project_id: "d74df7053a810351aad68f06632fe95d"
   push:
     sources:
-    - file: ./locales/de.yml
+    - file: ./locales/en-simple.yml
       params:
         file_format: yml
+        tags: simple
+    - file: ./locales/en-advanced.yml
+        file_format: yml
+        tags: advanced, custom
   pull:
     targets:
-    - file: ./locales/<locale_name>.yml
+    - file: ./locales/<locale_name>-simple.yml
       params:
         file_format: yml
+        tags: simple
+    - file: ./locales/<locale_name>-advanced.yml
+      params:
+        file_format: yml
+        tags: advanced, custom
