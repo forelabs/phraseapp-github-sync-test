@@ -8,6 +8,7 @@ phraseapp:
         file_format: yml
         tags: simple
     - file: ./locales/en-advanced.yml
+      params:
         file_format: yml
         tags: "advanced, custom"
   pull:
